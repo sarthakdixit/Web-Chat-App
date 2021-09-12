@@ -1,0 +1,40 @@
+.base{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: calc(100vh - 100px);
+}
+
+h1, h2, h3, h4, h5, h6, p, small{
+    color: white;
+}
+
+.base .inner{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+    border: 2px solid rgb(0,33,71);
+}
+
+.at-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.none-pointer{
+    cursor:default;
+}
